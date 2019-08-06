@@ -1,0 +1,140 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "clg",
+		"body": [
+			"console.log()"
+		],
+		"description": "Log output to console"
+	},
+	"ForEach loop": {
+		"prefix": "forE",
+		"body": [
+			"forEach($1 => {",
+			"$2",
+			"})"
+		],
+		"description": "forEach loop with no index"
+	},
+	"ForEach loop with index": {
+		"prefix": "forIndex",
+		"body": [
+			"forEach(($1, i) => {",
+			"$2",
+			"})"
+		],
+		"description": "forEach loop with index"
+	},
+	"Create react component": {
+		"prefix": "createComp",
+		"body": [
+			"const $1 = ($2) => {",
+			"\treturn (",
+			"\t\t$3",
+			"\t)",
+			"}"
+		],
+		"description": "Create reat component"
+	},
+	"import react": {
+		"prefix": "importR",
+		"body": [
+			"import React from 'react'"
+		],
+		"description": "import react"
+	},
+	"Use effect hook": {
+		"prefix": ["ue","useEffect"],
+		"body": [
+			"useEffect(() => {",
+			"\t$1",
+			"}, [])",
+		],
+		"description": "Use effect hook"
+	},
+	"Use state hook": {
+		"prefix": ["us","useState"],
+		"body": [
+			"const [$1,set$2] = useState($3)"
+		],
+		"description": "Use state hook"
+	},
+	"Use selector hook": {
+		"prefix": "useSelector",
+		"body": [
+			"const $1 = useSelector(state => state$2)"
+		],
+		"description": "Use selector hook"
+	},
+	"Use dispatch hook": {
+		"prefix": "useDispatch",
+		"body": [
+			"const dispatch = useDispatch()"
+		],
+		"description": "Use dispatch hook"
+	},
+	"Import react-redux": {
+		"prefix": "importRedux",
+		"body": [
+			"import { useDispatch, useSelector } from 'react-redux'"
+		],
+		"description": "Import react-redux"
+	},
+	"Import axios": {
+		"prefix": "importAxios",
+		"body": [
+			"import axios from 'axios'"
+		],
+		"description": "Import axios"
+	},
+	"Map function with no index": {
+		"prefix": "map",
+		"body": [
+			".map($1 => $2)"
+		],
+		"description": "Map function with no index"
+	},
+	"Map function with index": {
+		"prefix": "mapI",
+		"body": [
+			".map(($1,i) => $2)"
+		],
+		"description": "Map function with index"
+	},
+	"Filter function with no index": {
+		"prefix": "filter",
+		"body": [
+			".filter($1 => $2)"
+		],
+		"description": "Filter function with no index"
+	},
+	"Filter function with index": {
+		"prefix": "filterI",
+		"body": [
+			".filter(($1,i) => $2)"
+		],
+		"description": "Filter function with index"
+	},
+	"Grid container": {
+		"prefix": "GridCont",
+		"body": [
+			"<Grid container$1>",
+			"\t$2",
+			"<Grid/>"
+		],
+		"description": "Grid container"
+	},
+	"Grid item": {
+		"prefix": "GridItem",
+		"body": [
+			"<Grid item$1>",
+			"\t$2",
+			"<Grid/>"
+		],
+		"description": "Grid item"
+	}
+}
