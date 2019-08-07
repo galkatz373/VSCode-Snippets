@@ -124,7 +124,7 @@
 		"body": [
 			"<Grid container$1>",
 			"\t$2",
-			"<Grid/>"
+			"</Grid>"
 		],
 		"description": "Grid container"
 	},
@@ -133,7 +133,7 @@
 		"body": [
 			"<Grid item$1>",
 			"\t$2",
-			"<Grid/>"
+			"</Grid>"
 		],
 		"description": "Grid item"
 	}
